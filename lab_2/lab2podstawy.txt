@@ -1,0 +1,23 @@
+System kontroli wersji œledzi wszystkie zmiany dokonywane na pliku (lub plikach) i umo¿liwia przywo³anie dowolnej wczeœniejszej wersji.
+Typowy sposób pracy wygl¹da nastêpuj¹co:
+Pliki tworzymy i modyfikujemy w katalogu roboczym.
+Jeœli chcemy, by zmiany zosta³y uwzglêdnione, pliki przenosimy do przechowalni.
+Gdy chcemy zachowaæ bie¿¹cy stan projektu w repozytorium, zatwierdzamy zmiany
+Istnieje wiele systemów kontroli spoœród których mo¿na wyró¿niæ dwie grupy: scentralizowane i rozproszone. Systemy nale¿¹ce do pierwszej grupy opieraj¹ siê na istnieniu jednego g³ównego serwera na którym utrzymywana jest baza danych zawieraj¹ca informacje o rozwoju zmianach zachodz¹cych w kodzie Ÿród³owym. W takim przypadku ka¿dy z u¿ytkowników pracuj¹cych nad wspólnym oprogramowaniem operuje na kopii oprogramowania która jest synchronizowana z centralnym serwerem. Do najpopularniejszych systemów scentralizowanych nale¿¹ CVS, Subversion (zwany te¿ SVN). Drug¹ grupê stanowi¹ rozproszone systemów kontroli wersji. W tym przypadku nie ma jednego g³ównego serwera lecz ka¿dy z programistów posiada równoprawne repozytoria, które mog¹ byæ miêdzy sob¹ synchronizowane w niemal dowolny sposób. Do najpopularniejszych systemów rozproszonych nale¿¹ Git, Bazaar, Mercurial.
+  init - tworzenie nowego repozytorium
+    clone - utworzenie lokalnej kopii repozytorium
+    add - dodawanie plików do repozytorium
+    status - wyœwietla aktualny status projektu
+    diff - sprawdzanie dokonanych zmian w pliku
+    commit - zatwierdzanie zmian w plikach
+    reset - cofanie zmian w plikach, które s¹ ju¿ dodane do staging area
+    rm - usuwanie pliku z repozytorium i z dysku
+    mv - zmiana nazwy
+    branch - wyœwietla listê ga³êzi
+    checkout - cofanie zmian w plikach
+    merge - ³¹czenie zmian z ró¿nych ga³êzi
+    log - sprawdzanie historii zatwierdzeñ
+    stash - "posprz¹taj biurko i od³ó¿ coœ na póŸniej"
+    pull - œci¹ganie zmian z repozytorium zdalnego do konkretnej ga³êzi
+    push - "popchniêcie" zmian z okreœlonej ga³êzu repozytorium lokalnego na okreœlon¹ ga³¹Ÿ repozytorium zdalnego
+
